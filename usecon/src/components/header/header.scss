@@ -1,0 +1,29 @@
+.header{
+     background-color:rgba(0, 147, 196,.25);
+     height:80px;
+     // position:fixed;
+     color: white;
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+     .logo{
+          letter-spacing: 0px;
+     }
+     .icon1{
+          font-size: 40px;
+          background-color: transparent;
+          color: white;
+          position: relative;
+          left:-40px;
+          top: 30px;
+     }
+     .no__of__goods{
+          background-color: orange;
+          font-size: 28px;
+          text-align: center;
+          border-radius: 50%;
+          position: relative;
+          top: - 25px;
+          left: -13px;
+     }
+}

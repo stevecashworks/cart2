@@ -1,0 +1,27 @@
+.buttons{
+    display: flex;
+    flex-direction:column;
+    font-size: 40px;
+    margin-right: 40px;
+    h1{
+        position: relative;
+        left: 50px;
+    }
+    button{
+        font-size: inherit;
+        border: none;
+        background-color: transparent;
+
+    }
+    .btn{
+        transition:  all 1s ease;
+        color: blue;
+        font-size: 25px;
+    }
+    .btn:hover{
+        transform: scale(1.2);
+    }
+    svg{
+        color: blue;
+    }
+}
